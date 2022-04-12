@@ -1,0 +1,23 @@
+@charset "UTF-8";
+/* C  파랑 //// D  빨강  ////F 초록*/
+body{font-family:"맑은고딕"; font-size:17px;}
+h2{font-size:25px;}
+h3{font-size:20px;}
+#A{font-style:궁서; font-size:30px; letter-spacing:15px;}
+.C{color:#0000ff}
+.D{color:#ff0000}
+#E{background-color:#d9d9d9;}
+#E>p{text-indent:30px;}
+.F{color:#00ff00; text-decoration: underline;}
+#G{text-decoration: underline;}
+ul{list-style-type:square;}
+ol{list-style-type:none;}
+tbody tr:hover{background-color:#edd3ed;}
+a:link{color:#000000; text-decoration:none;}
+a:visited{color:#000000; text-decoration:underline;}
+a:active{color:#0000ff; text-decoration:underline;}
+a:hover{color:#0000ff; text-decoration: underline;}
+tr>th{background-color:#c8ebfa;}
+.G{text-align:right;}
+.G:before{content:"약";}
+.G:after{content:"(MB/초)";}
